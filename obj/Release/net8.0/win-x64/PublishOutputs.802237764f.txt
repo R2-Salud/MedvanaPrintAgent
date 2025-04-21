@@ -1,0 +1,4 @@
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.pdb
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.exe
