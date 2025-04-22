@@ -3353,19 +3353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itzel\\.nuget\\packages\\": {}
+    "C:\\Users\\vakac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itzel\\Documents\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
+      "projectUniqueName": "C:\\Users\\vakac\\Documents\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
       "projectName": "MedvanaPrintAgent",
-      "projectPath": "C:\\Users\\itzel\\Documents\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
-      "packagesPath": "C:\\Users\\itzel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itzel\\Documents\\GitHub\\MedvanaPrintAgent\\obj\\",
+      "projectPath": "C:\\Users\\vakac\\Documents\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
+      "packagesPath": "C:\\Users\\vakac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vakac\\Documents\\GitHub\\MedvanaPrintAgent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\itzel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vakac\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
