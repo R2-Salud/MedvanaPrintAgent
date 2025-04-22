@@ -9,7 +9,7 @@
 
 [Setup]
 AppName=MedvanaPrintAgent
-AppVersion=1.0.0
+AppVersion=1.0.1
 DefaultDirName={autopf}\MedvanaPrintAgent
 DefaultGroupName=MedvanaPrintAgent
 OutputBaseFilename=MedvanaPrintAgentInstaller
