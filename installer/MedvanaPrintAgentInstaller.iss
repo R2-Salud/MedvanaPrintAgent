@@ -25,7 +25,7 @@ Source: "{#ConfigTemplate}";      DestDir: "{app}"; Flags: ignoreversion
 Name: "{group}\MedvanaPrintAgent"; Filename: "{app}\MedvanaPrintAgent.exe"; IconFilename: "{#MyAppIcon}"
 
 [Run]
-Filename: "sc.exe"; Parameters: "create MedvanaPrintAgentService binPath= ""{app}\MedvanaPrintAgent.exe"" start= auto DisplayName= ""Medvana Print Agent"""; \
+Filename: "sc.exe"; Parameters: "create MedvanaPrintAgentService binPath= ""{app}\MedvanaPrintAgent.exe"" start= delayed-auto DisplayName= ""Medvana Print Agent"""; \
     StatusMsg: "Registering service..."; Flags: runhidden
 Filename: "sc.exe"; Parameters: "start MedvanaPrintAgentService"; \
     StatusMsg: "Starting service..."; Flags: runhidden
