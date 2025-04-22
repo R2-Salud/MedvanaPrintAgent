@@ -709,3 +709,4 @@ C:\Users\vakac\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\ref
 C:\Users\vakac\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.pdb
 C:\Users\vakac\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.genruntimeconfig.cache
 C:\Users\vakac\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\ref\MedvanaPrintAgent.dll
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.sourcelink.json
