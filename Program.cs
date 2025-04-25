@@ -7,11 +7,24 @@ using System.Drawing.Printing;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
 builder.WebHost.UseUrls("http://*:3110");
 // This extension enables your app to run as a Windows Service.
 builder.Host.UseWindowsService();
 
 var app = builder.Build();
+
+app.UseCors("AllowAll");
 
 app.MapPost("/print", async context =>
 {
