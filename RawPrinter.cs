@@ -52,20 +52,49 @@ public static class RawPrinter
         DOCINFOA di = new DOCINFOA();
         di.pDocName = "ZPL Document";
         di.pDataType = "RAW";
-        if (!OpenPrinter(printerName, out hPrinter, IntPtr.Zero))
-            return false;
-        bool success = false;
-        if (StartDocPrinter(hPrinter, 1, di))
+        string logPath = Path.Combine(AppContext.BaseDirectory, "MedvanaPrintAgent_Log.txt");
+
+        try
         {
-            if (StartPagePrinter(hPrinter))
+            if (!OpenPrinter(printerName, out hPrinter, IntPtr.Zero))
             {
-                int dwWritten = 0;
-                success = WritePrinter(hPrinter, pBytes, dwCount, out dwWritten);
-                EndPagePrinter(hPrinter);
+                int err = Marshal.GetLastWin32Error();
+                File.AppendAllText(logPath, $"{DateTime.Now}: OpenPrinter failed with error {err}{Environment.NewLine}");
+                return false;
             }
-            EndDocPrinter(hPrinter);
+            bool success = false;
+            if (StartDocPrinter(hPrinter, 1, di))
+            {
+                if (StartPagePrinter(hPrinter))
+                {
+                    int dwWritten = 0;
+                    success = WritePrinter(hPrinter, pBytes, dwCount, out dwWritten);
+                    if (!success)
+                    {
+                        int err = Marshal.GetLastWin32Error();
+                        File.AppendAllText(logPath, $"{DateTime.Now}: WritePrinter failed with error {err}{Environment.NewLine}");
+                    }
+                    EndPagePrinter(hPrinter);
+                }
+                else
+                {
+                    int err = Marshal.GetLastWin32Error();
+                    File.AppendAllText(logPath, $"{DateTime.Now}: StartPagePrinter failed with error {err}{Environment.NewLine}");
+                }
+                EndDocPrinter(hPrinter);
+            }
+            else
+            {
+                int err = Marshal.GetLastWin32Error();
+                File.AppendAllText(logPath, $"{DateTime.Now}: StartDocPrinter failed with error {err}{Environment.NewLine}");
+            }
+            ClosePrinter(hPrinter);
+            return success;
         }
-        ClosePrinter(hPrinter);
-        return success;
+        catch (Exception ex)
+        {
+            File.AppendAllText(logPath, $"{DateTime.Now}: Exception in SendBytesToPrinter: {ex.Message}{Environment.NewLine}{ex.StackTrace}{Environment.NewLine}");
+            return false;
+        }
     }
 }
