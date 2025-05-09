@@ -9,7 +9,9 @@
 
 [Setup]
 AppName=MedvanaPrintAgent
-AppVersion=1.0.2
+AppPublisher=Medvana
+AppVersion=1.0.3
+
 DefaultDirName={autopf}\MedvanaPrintAgent
 DefaultGroupName=MedvanaPrintAgent
 OutputBaseFilename=MedvanaPrintAgentInstaller
@@ -20,6 +22,7 @@ SetupIconFile={#MyAppIcon}
 [Files]
 Source: "{#SingleExe}";           DestDir: "{app}"; Flags: ignoreversion
 Source: "{#ConfigTemplate}";      DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppIcon}";           DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\MedvanaPrintAgent"; Filename: "{app}\MedvanaPrintAgent.exe"; IconFilename: "{#MyAppIcon}"
@@ -110,5 +113,5 @@ end;
 
 [Registry]
 Root: HKLM; Subkey: "Software\Microsoft\Windows\CurrentVersion\Uninstall\{#SetupSetting('AppName')}"; \
-    ValueType: string; ValueName: "DisplayIcon"; ValueData: "{app}\MedvanaPrintAgent.exe"; Flags: uninsdeletekey
+    ValueType: string; ValueName: "DisplayIcon"; ValueData: "{app}\PrintAgentIcon.ico"; Flags: uninsdeletekey
 
