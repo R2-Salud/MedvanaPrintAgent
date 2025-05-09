@@ -108,3 +108,7 @@ begin
   end;
 end;
 
+[Registry]
+Root: HKLM; Subkey: "Software\Microsoft\Windows\CurrentVersion\Uninstall\{#SetupSetting('AppName')}"; \
+    ValueType: string; ValueName: "DisplayIcon"; ValueData: "{app}\MedvanaPrintAgent.exe"; Flags: uninsdeletekey
+
