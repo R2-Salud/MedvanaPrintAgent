@@ -1,0 +1,15 @@
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\appsettings.Development.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\appsettings.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\appsettings.Development.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\appsettings.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.deps.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.runtimeconfig.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\obj\MedvanaPrintAgentMonitor.csproj.nuget.dgspec.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\obj\project.assets.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\obj\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.deps.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\obj\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.sourcelink.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\Properties\launchSettings.json
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.pdb
+C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.exe

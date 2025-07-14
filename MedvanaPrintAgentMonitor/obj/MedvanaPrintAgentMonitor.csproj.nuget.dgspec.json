@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.csproj": {}
+    "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgentMonitor\\MedvanaPrintAgentMonitor.csproj": {}
   },
   "projects": {
-    "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.csproj": {
+    "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgentMonitor\\MedvanaPrintAgentMonitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.csproj",
+        "projectUniqueName": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgentMonitor\\MedvanaPrintAgentMonitor.csproj",
         "projectName": "MedvanaPrintAgentMonitor",
-        "projectPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.csproj",
-        "packagesPath": "/Users/rickmiranda/.nuget/packages/",
-        "outputPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgentMonitor/obj/",
+        "projectPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgentMonitor\\MedvanaPrintAgentMonitor.csproj",
+        "packagesPath": "C:\\Users\\rtapi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgentMonitor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rickmiranda/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rtapi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -51,12 +51,6 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.7, )",
-              "autoReferenced": true
-            },
             "Serilog.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -84,15 +78,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.18, 8.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -100,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

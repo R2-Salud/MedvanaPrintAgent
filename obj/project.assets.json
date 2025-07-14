@@ -623,7 +623,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.7": {
+      "Microsoft.NET.ILLink.Tasks/8.0.18": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1560,7 +1560,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.7": {
+      "Microsoft.NET.ILLink.Tasks/8.0.18": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -2800,10 +2800,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.7": {
-      "sha512": "iI52ptEKby2ymQ6B7h4TWbFmm85T4VvLgc/HvS45Yr3lgi4IIFbQtjON3bQbX/Vc94jXNSLvrDOp5Kh7SJyFYQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.18": {
+      "sha512": "OiXqr2YIBEV9dsAWEtasK470ALyJ0VxJ9k4MotOxlWV6HeEgrJKYMW4HHj1OCCXvqE0/A25wEKPkpfiBARgDZA==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.7",
+      "path": "microsoft.net.illink.tasks/8.0.18",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2817,7 +2817,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -3346,26 +3346,26 @@
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Microsoft.Extensions.Hosting.WindowsServices >= 8.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.7",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.18",
       "Serilog.AspNetCore >= 7.0.0",
       "Serilog.Sinks.File >= 5.0.0",
       "System.Drawing.Common >= 8.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/rickmiranda/.nuget/packages/": {}
+    "C:\\Users\\rtapi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj",
+      "projectUniqueName": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
       "projectName": "MedvanaPrintAgent",
-      "projectPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj",
-      "packagesPath": "/Users/rickmiranda/.nuget/packages/",
-      "outputPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/obj/",
+      "projectPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
+      "packagesPath": "C:\\Users\\rtapi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rickmiranda/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rtapi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3405,7 +3405,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.7, )",
+            "version": "[8.0.18, )",
             "autoReferenced": true
           },
           "Serilog.AspNetCore": {
@@ -3435,15 +3435,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.7, 8.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.18, 8.0.18]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.18, 8.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.18, 8.0.18]"
           }
         ],
         "frameworkReferences": {
@@ -3454,7 +3454,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
