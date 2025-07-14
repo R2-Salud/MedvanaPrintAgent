@@ -2,16 +2,16 @@
 ; Inno Setup Script for MedvanaPrintAgent
 ;-----------------------------------------------------------
 
-#define SingleExe "C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.exe"
-#define MonitorExe "C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\MedvanaPrintAgentMonitor.exe"
-#define ConfigTemplate "C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\config\printer_agent.properties"
-#define MyAppIcon "C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\assets\PrintAgentIcon.ico"
+#define SingleExe "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.exe"
+#define MonitorExe "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\MedvanaPrintAgentMonitor.exe"
+#define ConfigTemplate "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\config\printer_agent.properties"
+#define MyAppIcon "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\assets\PrintAgentIcon.ico"
 
 
 [Setup]
 AppName=MedvanaPrintAgent
 AppPublisher=Medvana
-AppVersion=1.1.0
+AppVersion=1.1.1
 
 DefaultDirName={autopf}\MedvanaPrintAgent
 DefaultGroupName=MedvanaPrintAgent

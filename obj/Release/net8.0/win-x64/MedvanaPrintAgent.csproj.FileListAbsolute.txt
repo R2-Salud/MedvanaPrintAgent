@@ -344,8 +344,6 @@ C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\msq
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\aspnetcorev2_inprocess.dll
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.csproj.AssemblyReference.cache
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.AssemblyInfoInputs.cache
-C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.AssemblyInfo.cs
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.csproj.CoreCompileInputs.cache
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaP.7FB36145.Up2Date
 C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.dll
@@ -1075,3 +1073,18 @@ C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\obj\Release\net8.0\w
 C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.pdb
 C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\MedvanaPrintAgent.genruntimeconfig.cache
 C:\Users\rtapi\OneDrive\Documentos\GitHub\MedvanaPrintAgent\obj\Release\net8.0\win-x64\ref\MedvanaPrintAgent.dll
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\appsettings.Development.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\appsettings.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\appsettings.Development.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\appsettings.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.deps.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.runtimeconfig.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor.deps.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor.runtimeconfig.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\obj\MedvanaPrintAgentMonitor.csproj.nuget.dgspec.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\obj\project.assets.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\obj\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.deps.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\obj\Release\net8.0\win-x64\MedvanaPrintAgentMonitor.sourcelink.json
+C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\MedvanaPrintAgentMonitor\Properties\launchSettings.json

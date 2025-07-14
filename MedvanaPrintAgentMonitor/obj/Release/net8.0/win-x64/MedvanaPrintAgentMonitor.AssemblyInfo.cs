@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedvanaPrintAgentMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+946497a34fa3aac74ff4ba82cd0f637ef87d2fa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1101a07b342a8826efec7a3094cb6fd33373dfcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedvanaPrintAgentMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedvanaPrintAgentMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
