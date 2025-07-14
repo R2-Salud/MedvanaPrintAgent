@@ -12,6 +12,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-MedvanaPrintAgent-dc955f2a-2b5a-4caf-a961-b34a875af90c</UserSecretsId>
     <ApplicationIcon>assets\PrintAgentIcon.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>

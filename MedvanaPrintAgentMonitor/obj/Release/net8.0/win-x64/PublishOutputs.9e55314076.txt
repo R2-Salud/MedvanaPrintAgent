@@ -1,0 +1,4 @@
+/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/bin/Release/net8.0/win-x64/publish/MedvanaPrintAgentMonitor/appsettings.Development.json
+/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/bin/Release/net8.0/win-x64/publish/MedvanaPrintAgentMonitor/appsettings.json
+/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/bin/Release/net8.0/win-x64/publish/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.pdb
+/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/bin/Release/net8.0/win-x64/publish/MedvanaPrintAgentMonitor/MedvanaPrintAgentMonitor.exe

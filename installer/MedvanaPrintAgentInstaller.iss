@@ -3,6 +3,7 @@
 ;-----------------------------------------------------------
 
 #define SingleExe "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgent.exe"
+#define MonitorExe "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\bin\Release\net8.0\win-x64\publish\MedvanaPrintAgentMonitor\MedvanaPrintAgentMonitor.exe"
 #define ConfigTemplate "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\config\printer_agent.properties"
 #define MyAppIcon "C:\Users\itzel\Documents\GitHub\MedvanaPrintAgent\assets\PrintAgentIcon.ico"
 
@@ -21,6 +22,7 @@ SetupIconFile={#MyAppIcon}
 
 [Files]
 Source: "{#SingleExe}";           DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MonitorExe}";          DestDir: "{app}"; Flags: ignoreversion
 Source: "{#ConfigTemplate}";      DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyAppIcon}";           DestDir: "{app}"; Flags: ignoreversion
 
@@ -29,9 +31,14 @@ Name: "{group}\MedvanaPrintAgent"; Filename: "{app}\MedvanaPrintAgent.exe"; Icon
 
 [Run]
 Filename: "sc.exe"; Parameters: "create MedvanaPrintAgentService binPath= ""{app}\MedvanaPrintAgent.exe"" start= delayed-auto DisplayName= ""Medvana Print Agent"""; \
-    StatusMsg: "Registering service..."; Flags: runhidden
+    StatusMsg: "Registering main service..."; Flags: runhidden
 Filename: "sc.exe"; Parameters: "start MedvanaPrintAgentService"; \
-    StatusMsg: "Starting service..."; Flags: runhidden
+    StatusMsg: "Starting main service..."; Flags: runhidden
+
+Filename: "sc.exe"; Parameters: "create MedvanaPrintAgentMonitorService binPath= ""{app}\MedvanaPrintAgentMonitor.exe"" start= delayed-auto DisplayName= ""Medvana Print Agent Monitor"""; \
+    StatusMsg: "Registering monitor service..."; Flags: runhidden
+Filename: "sc.exe"; Parameters: "start MedvanaPrintAgentMonitorService"; \
+    StatusMsg: "Starting monitor service..."; Flags: runhidden
 
 [Code]
 //------------------------------------------------------------------------------
