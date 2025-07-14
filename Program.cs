@@ -46,14 +46,17 @@ namespace MedvanaPrintAgent
             builder.Host.UseWindowsService();
 
             var app = builder.Build();
+            Log.Information("MedvanaPrintAgent application built.");
 
             app.UseCors("AllowAll");
+            Log.Information("CORS policy 'AllowAll' applied.");
 
             app.MapPost("/print", async context =>
             {
                 Log.Information("Print request received.");
                 try
                 {
+                    Log.Information("Attempting to read print request from body.");
                     // Read the ZPL command from the request body.
                     var printRequest = await context.Request.ReadFromJsonAsync<PrintRequest>();
                     if (printRequest == null || string.IsNullOrWhiteSpace(printRequest.zpl))
@@ -73,8 +76,10 @@ namespace MedvanaPrintAgent
                     if (string.IsNullOrEmpty(printerName))
                     {
                         string propertiesFile = Path.Combine(Directory.GetCurrentDirectory(), "printer_agent.properties");
+                        Log.Information("Checking for printer_agent.properties at: {PropertiesFile}", propertiesFile);
                         if (File.Exists(propertiesFile))
                         {
+                            Log.Information("printer_agent.properties found. Reading lines.");
                             var lines = File.ReadAllLines(propertiesFile);
                             foreach (var line in lines)
                             {
@@ -87,11 +92,16 @@ namespace MedvanaPrintAgent
                                 }
                             }
                         }
+                        else
+                        {
+                            Log.Warning("printer_agent.properties not found at: {PropertiesFile}", propertiesFile);
+                        }
                     }
 
                     // 3. If still not found, use the system's default printer.
                     if (string.IsNullOrEmpty(printerName))
                     {
+                        Log.Information("Printer name not found in request or config. Attempting to use system default printer.");
                         // Create a PrinterSettings instance to determine the default printer name.
                         PrinterSettings ps = new PrinterSettings();
                         printerName = ps.PrinterName;
@@ -99,11 +109,12 @@ namespace MedvanaPrintAgent
                     }
 
                     // Log the resolved printer name
-                    Log.Information("Final resolved printer name: {PrinterName}", printerName);
+                    Log.Information("Final resolved printer name for printing: {PrinterName}", printerName);
 
                     string zpl = printRequest.zpl;
 
                     // Use the determined printer name to send the ZPL to the printer.
+                    Log.Information("Sending ZPL to printer: {PrinterName}", printerName);
                     bool success = RawPrinter.SendStringToPrinter(printerName, zpl);
 
                     if (!success)
@@ -128,7 +139,9 @@ namespace MedvanaPrintAgent
                 }
             });
 
+            Log.Information("Starting MedvanaPrintAgent application.");
             await app.RunAsync();
+            Log.Information("MedvanaPrintAgent application stopped.");
         }
     }
 

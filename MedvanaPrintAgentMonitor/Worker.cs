@@ -13,12 +13,31 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        _logger.LogInformation("MedvanaPrintAgentMonitor Worker starting.");
+
         while (!stoppingToken.IsCancellationRequested)
         {
-            _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+            _logger.LogInformation("MedvanaPrintAgentMonitor Worker running at: {time}", DateTimeOffset.Now);
 
-            bool webServerStatus = await _monitoringService.CheckWebServerStatus();
-            bool printEndpointStatus = await _monitoringService.CheckPrintEndpointAvailability();
+            bool webServerStatus = false;
+            try
+            {
+                webServerStatus = await _monitoringService.CheckWebServerStatus();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during CheckWebServerStatus: {ErrorMessage}", ex.Message);
+            }
+
+            bool printEndpointStatus = false;
+            try
+            {
+                printEndpointStatus = await _monitoringService.CheckPrintEndpointAvailability();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during CheckPrintEndpointAvailability: {ErrorMessage}", ex.Message);
+            }
 
             _logger.LogInformation("Web Server Status: {WebServerStatus}, Print Endpoint Status: {PrintEndpointStatus}", webServerStatus, printEndpointStatus);
 
@@ -30,5 +49,7 @@ public class Worker : BackgroundService
 
             await Task.Delay(5000, stoppingToken); // Check every 5 seconds
         }
+
+        _logger.LogInformation("MedvanaPrintAgentMonitor Worker stopping.");
     }
 }

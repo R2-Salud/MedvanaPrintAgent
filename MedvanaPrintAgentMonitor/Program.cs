@@ -22,8 +22,12 @@ builder.Services.AddSerilog(); // Use Serilog for logging
 
 builder.Services.AddWindowsService(); // Enable running as a Windows Service
 
+Log.Information("MedvanaPrintAgentMonitor application starting up.");
+
 builder.Services.AddSingleton<MonitoringService>(); // Register MonitoringService
 builder.Services.AddHostedService<Worker>();
 
 var host = builder.Build();
 host.Run();
+
+Log.Information("MedvanaPrintAgentMonitor application shutting down.");
