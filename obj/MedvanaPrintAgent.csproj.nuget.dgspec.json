@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj": {}
+    "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj": {}
   },
   "projects": {
-    "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj": {
+    "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj",
+        "projectUniqueName": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
         "projectName": "MedvanaPrintAgent",
-        "projectPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/MedvanaPrintAgent.csproj",
-        "packagesPath": "/Users/rickmiranda/.nuget/packages/",
-        "outputPath": "/Users/rickmiranda/Documents/GitHub/MedvanaPrintAgent/obj/",
+        "projectPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\MedvanaPrintAgent.csproj",
+        "packagesPath": "C:\\Users\\rtapi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rtapi\\OneDrive\\Documentos\\GitHub\\MedvanaPrintAgent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rickmiranda/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rtapi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -54,7 +54,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.18, )",
               "autoReferenced": true
             },
             "Serilog.AspNetCore": {
@@ -84,15 +84,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.18, 8.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
